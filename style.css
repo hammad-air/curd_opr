@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dongle&family=Roboto:wght@300&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+ 
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+
+.container {
+    width: 90vw;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.container input {
+    border: 2px rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 30vw;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container button {
+ 
+    padding: 15px 15px;
+    /* margin-left: 100px; */
+    border-radius: 5px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    
+    font-size: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 8px;
+    margin-left: 500px;
+    color: rgb(255, 255, 255);
+}
+
+.table {
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.table thead tr th{
+    /* width: 40%; */
+    /* border: 5px rgb(255, 255, 255); */
+ 
+}
+
+@media screen and (max-width: 1204px) {
+    .container {
+        width: 74vw;
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .container input {
+        width: 50%;
+    }
+    .container button {
+        display: block;
+        margin: auto;
+    }
+    table thead tr th{
+        /* border: 3px solid black; */
+        width: 20px;
+     
+    }
+    #eachUser._id{
+        width: 4px;
+     
+    }
+    table tbody tr{
+        /* border: 3px solid black; */
+     
+    }
+    table tbody tr td{
+        /* border: 3px solid black; */
+        width: 2px;
+     
+    }
+    #btone {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 5px 0px;
+    }
+}
